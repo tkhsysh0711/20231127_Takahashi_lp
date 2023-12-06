@@ -108,16 +108,17 @@
 
 .about{
     position: relative;
-    width: 60vw;
+    width: 100vw;
     height: 30vw;
     margin: 0 auto;
+    background:rgb(247, 247, 247);
 }
 
 .about_category{
         font-family: 'Mansalva', sans-serif;
         position: absolute;
         font-size: 2vw;
-        left: 25vw;
+        left: 45vw;
         color: brown;
 }
 
@@ -125,19 +126,90 @@
     position: absolute;
     font-size: 2vw;
     top: 3vw;
-    left: 14vw;
+    left: 34vw;
 }
 
 .about_txt{
     position: absolute;
     font-size: 1.2vw;
     top: 10vw;
+    left: 15vw;
     line-height: 2vw;
 }
 
 .about_img{
     position: absolute;
     top: 10vw;
-    right: 0;
+    right: 17vw;
     width: 25vw;
+}
+
+.service{
+    position: relative;
+    width: 80vw;
+    height: 40vw;
+    margin: 0 auto;
+}
+
+.service_category{
+    font-family: 'Mansalva', sans-serif;
+        position: absolute;
+        font-size: 2vw;
+        left: 7vw;
+        color: brown;
+}
+
+.service_title{
+    position: absolute;
+    font-size: 2vw;
+    top: 3vw;
+    left: 10vw;
+}
+
+.service_content-grid{
+    display: grid;
+    grid-template-rows: 30vw 30vw;
+    grid-template-columns: 50vw 50vw;
+}
+
+.company-summary{
+    position: relative;
+    width: 70vw;
+    height: 40vw;
+    margin: 0 auto;
+}
+
+.company-summary_category{
+    font-family: 'Mansalva', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    left: 10vw;
+    color: brown;
+}
+
+.company-summary_title{
+    position: absolute;
+    font-size: 2vw;
+    top: 3vw;
+    left: 12vw;
+}
+
+.summary{
+    position: absolute;
+    top: 7vw;
+    left: 10vw;
+}
+
+.table_title, 
+.table_explain{
+    border: 1px solid #6e6e6e;
+    padding: 1vw;
+    padding-right: 10vw;
+}
+
+.table_title{
+    background: #eaeaea;
+}
+.table_explain{
+    padding-right: 20vw;
 }
