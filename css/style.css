@@ -1,0 +1,87 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100px;
+}
+
+.header_logo img{
+    width: 200px;
+    height: auto;
+}
+
+.header_nav-list{
+    display: flex;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.header_nav-item{
+    margin-right: 30px;
+}
+
+.firstview{
+    position: relative;
+    width: 100vw;
+    height: 50vw;
+}
+
+.firstview_txt-group{
+    position: absolute;
+    top: 5vw;
+    left: 10vw;
+    z-index: 1;
+}
+
+.firstview_main-eng-txt{
+    font-family: 'Mansalva', sans-serif;
+    font-size: 5vw;
+    line-height: 8vw;
+    color:brown;
+}
+
+.firstview_main-jpn-txt{
+    font-size: 2vw;
+    font-weight: bold;
+    margin-top: 3vw;
+    color:brown;
+}
+
+.firstview_enphansis-word{
+    color:turquoise;
+}
+
+.firstview_sub-txt{
+    margin-top: 2vw;
+    line-height: 2vw;
+}
+
+.firstview_img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 65%;
+}
+
+.news{
+    position: relative; 
+    width: 70vw;
+    height: 40vw;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+.news_category{
+    font-family: 'Mansalva', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    left: 10vw;
+    color:brown;
+}
+
+.news_title{
+    position: absolute;
+    top: 3vw;
+    left: 12vw;
+    font-size: 3vw;
+}
