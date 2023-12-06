@@ -68,7 +68,6 @@
     width: 70vw;
     height: 35vw;
     margin: 0 auto;
-    background-color: bisque;
 }
 
 .news_category{
@@ -105,4 +104,40 @@
     height: 150vw;
     border-radius: 30px;
     background:mediumvioletred;
+}
+
+.about{
+    position: relative;
+    width: 60vw;
+    height: 30vw;
+    margin: 0 auto;
+}
+
+.about_category{
+        font-family: 'Mansalva', sans-serif;
+        position: absolute;
+        font-size: 2vw;
+        left: 25vw;
+        color: brown;
+}
+
+.about_title{
+    position: absolute;
+    font-size: 2vw;
+    top: 3vw;
+    left: 14vw;
+}
+
+.about_txt{
+    position: absolute;
+    font-size: 1.2vw;
+    top: 10vw;
+    line-height: 2vw;
+}
+
+.about_img{
+    position: absolute;
+    top: 10vw;
+    right: 0;
+    width: 25vw;
 }
