@@ -1,6 +1,6 @@
 a{
     text-decoration: none;
-    color: #6e6e6e;
+    color: #3b3b3b;
 }
 
 .header{
@@ -79,27 +79,33 @@ a{
     font-family: 'Mansalva', sans-serif;
     position: absolute;
     font-size: 2vw;
-    left: 10vw;
+    left: 7vw;
     color:brown;
 }
 
 .news_title{
     position: absolute;
     top: 3vw;
-    left: 12vw;
+    left: 8vw;
     font-size: 2vw;
 }
 
 .news_list{
     position: absolute;
     top: 7vw;
-    left: 12vw;
+    left: 8vw;
     list-style: none;
+    border-top: solid 2px;
+    border-bottom: solid 2px;
+    width: 55vw;
+    height: 70%;
 }
 
 .news_list-item{
     font-size: 1.2vw;
-    line-height: 1.7vw;
+    line-height: 4.5vw;
+    border-bottom: solid 1px;
+    width: 55vw;
 }
 
 .news_list-icon{
@@ -152,7 +158,7 @@ a{
 .service{
     position: relative;
     width: 80vw;
-    height: 40vw;
+    height: 45vw;
     margin: 0 auto;
 }
 
@@ -211,6 +217,7 @@ a{
     position: relative;
     top: 16vw;
     left: 14vw;
+    font-weight: bold;
 }
 
 .service_content-txt{
@@ -241,10 +248,103 @@ a{
     position: relative;
     width: 100vw;
     height: 40vw;
+    background: rgb(246, 243, 243);
 }
 
 .blog_category{
-    
+    font-family: 'Mansalva', sans-serif;
+    position: absolute;
+    font-size: 2vw;
+    left: 17vw;
+    color:brown;
+}
+
+.blog_title{
+    position: absolute;
+    font-size: 2vw;
+    top: 3vw;
+    left: 19vw;
+}
+
+.blog_archive{
+    position: relative;
+    top: 8vw;
+    font-size: 1vw;
+}
+
+.blog_archive-card1{
+    position: absolute;
+    left: 15vw;
+    width: 20vw;
+    height: 25vw;
+    background: #fff;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.blog_archive-card2 {
+    position: absolute;
+    left: 40vw;
+    width: 20vw;
+    height: 25vw;
+    background: #fff;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.blog_archive-card3 {
+    position: absolute;
+    left: 65vw;
+    width: 20vw;
+    height: 25vw;
+    background: #fff;
+    border-radius: 5% 5% 5% 5%;
+}
+
+.archive_title{
+    position: absolute;
+    padding: 0.5vw 1vw;
+    background-color: #ad5090;
+    z-index: 1;
+    font-size: 1vw;
+    border-radius: 20% 0 0 0;
+}
+
+.blog_archive-img{
+    position: absolute;
+    width: 20vw;
+    border-radius: 5% 5% 0 0;
+}
+
+.archive_txt{
+    position: absolute;
+    top: 15vw;
+    left: 2vw;
+    line-height: 2;
+    inline-size: 17vw;
+    font-weight: bold;
+}
+
+.archive_date{
+    position: absolute;
+    top: 22vw;
+    left:2vw;
+    color: #6e6e6e;
+}
+
+.archive_tag{
+    position: absolute;
+    top: 22vw;
+    left: 10vw;
+    color: #6e6e6e;
+}
+
+.blog_archive-btn{
+    position: relative;
+    top: 36vw;
+    left: 44vw;
+    padding: 0.7vw;
+    color:rgb(181, 6, 93);
+    border: solid 2px rgb(181, 6, 93);
+    border-radius: 30px;
 }
 
 .company-summary{
@@ -342,9 +442,10 @@ a{
 }
 
 .contact_txt::after{
-    content:"|";
+    content:"";
     color:brown;
     font-size: 1.5vw;
+    border-left: solid 2px brown;
 }
 
 .contact_btn{
