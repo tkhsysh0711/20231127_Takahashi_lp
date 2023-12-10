@@ -71,7 +71,7 @@ a{
 .news{
     position: relative; 
     width: 70vw;
-    height: 35vw;
+    height: 40vw;
     margin: 0 auto;
 }
 
@@ -98,7 +98,7 @@ a{
     border-top: solid 2px;
     border-bottom: solid 2px;
     width: 55vw;
-    height: 70%;
+    height: 65%;
 }
 
 .news_list-item{
@@ -120,7 +120,7 @@ a{
 .about{
     position: relative;
     width: 100vw;
-    height: 30vw;
+    height: 33vw;
     margin: 0 auto;
     background:rgb(247, 247, 247);
 }
@@ -129,6 +129,7 @@ a{
         font-family: 'Mansalva', sans-serif;
         position: absolute;
         font-size: 2vw;
+        top: 3vw;
         left: 45vw;
         color: brown;
 }
@@ -136,7 +137,7 @@ a{
 .about_title{
     position: absolute;
     font-size: 2vw;
-    top: 3vw;
+    top: 6vw;
     left: 34vw;
 }
 
@@ -158,7 +159,7 @@ a{
 .service{
     position: relative;
     width: 80vw;
-    height: 45vw;
+    height: 50vw;
     margin: 0 auto;
 }
 
@@ -166,6 +167,7 @@ a{
     font-family: 'Mansalva', sans-serif;
         position: absolute;
         font-size: 2vw;
+        top: 5vw;
         left: 7vw;
         color: brown;
 }
@@ -173,13 +175,13 @@ a{
 .service_title{
     position: absolute;
     font-size: 2vw;
-    top: 3vw;
+    top: 8vw;
     left: 10vw;
 }
 
 .service_content-grid{
     position: absolute;
-    top: 7vw;
+    top: 12vw;
     left: 5vw;
     display: grid;
     grid-template-rows: 15vw 15vw;
@@ -247,7 +249,7 @@ a{
 .blog{
     position: relative;
     width: 100vw;
-    height: 40vw;
+    height: 45vw;
     background: rgb(246, 243, 243);
 }
 
@@ -255,6 +257,7 @@ a{
     font-family: 'Mansalva', sans-serif;
     position: absolute;
     font-size: 2vw;
+    top: 3vw;
     left: 17vw;
     color:brown;
 }
@@ -262,13 +265,13 @@ a{
 .blog_title{
     position: absolute;
     font-size: 2vw;
-    top: 3vw;
+    top: 6vw;
     left: 19vw;
 }
 
 .blog_archive{
     position: relative;
-    top: 8vw;
+    top: 11vw;
     font-size: 1vw;
 }
 
@@ -339,7 +342,7 @@ a{
 
 .blog_archive-btn{
     position: relative;
-    top: 36vw;
+    top: 40vw;
     left: 44vw;
     padding: 0.7vw;
     color:rgb(181, 6, 93);
@@ -350,7 +353,7 @@ a{
 .company-summary{
     position: relative;
     width: 70vw;
-    height: 30vw;
+    height: 42vw;
     margin: 0 auto;
 }
 
@@ -358,6 +361,7 @@ a{
     font-family: 'Mansalva', sans-serif;
     position: absolute;
     font-size: 2vw;
+    top: 5vw;
     left: 10vw;
     color: brown;
 }
@@ -365,13 +369,13 @@ a{
 .company-summary_title{
     position: absolute;
     font-size: 2vw;
-    top: 3vw;
+    top: 8vw;
     left: 12vw;
 }
 
 .summary{
     position: absolute;
-    top: 7vw;
+    top: 13vw;
     left: 10vw;
 }
 
@@ -422,7 +426,7 @@ a{
 .link_interview-page{
     position: absolute;
     top: 10vw;
-    right: 16vw;
+    right: 14vw;
     z-index: 1;
     color: aliceblue;
     font-size: 3vw;
